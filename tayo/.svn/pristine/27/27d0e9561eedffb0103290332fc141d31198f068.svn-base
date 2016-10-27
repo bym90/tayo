@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+
+/* 이종헌 타요안내  CSS */
+
+h2 { text-align: center; }
+
+
+#info_main  {
+/* 	float: left; */
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    margin-left: 100px;
+    border: 3px solid #73AD21;
+    
+/*     ideu > iedu이니셜  (소문자 내 이니셜) */
+/*     메인 모드 다 합쳐서 디자인 좀더 손을 봄 */
+    
+}
+
+#divv{
+			margin: 0 auto;
+			text-align: center;
+			margin-left: 50px;
+			margin-right: 50px;
+			text-align: center;
+		}
+
+
+#img_size {  
+				    display: block;
+				    margin: 0 auto;
+				
+				}
+		 
+	

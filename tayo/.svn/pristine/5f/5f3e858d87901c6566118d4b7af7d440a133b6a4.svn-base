@@ -1,0 +1,32 @@
+.h4_ul {margin:0 0 0 0;}
+.h4_ul li {margin:0 0 20px 0; padding:0 0 0 10px; font-size:14px; color:#323232; line-height:24px; letter-spacing:0px; font-weight:600;background:url(/html/images/common/h4_bul.gif) no-repeat 0 8px;}
+
+
+.h5_ul{margin:0 0 0 7px; padding:0;}
+.h5_ul li{font-size:13px; line-height:22px; color:#fa8400; margin:0 0 10px 3px; font-weight:600; border:0px !important;}
+.h5_ul li p{margin:5px 0 10px 3px; font-size:13px; font-weight:normal; color:#444; padding:0; line-height:20px;}
+
+.h5_ol{margin:0 0 0 7px; padding:0;}
+.h5_ol li{font-size:13px; line-height:22px; color:#fa8400; margin:0 0 10px 3px; background:none; padding:0 0 0 0;}
+.h5_ol li p{margin:5px 0 10px 0; font-size:13px; font-weight:normal; color:#444; padding:0; line-height:20px;}
+
+.h6_ul{margin:7px 0 20px 0; padding:0;}
+.h6_ul li{font-size:13px; line-height:20px; color:#3b3c3c; margin:0 0 5px 0; padding:0 0 0 10px;border:0px !important; background:url(/html/images/common/h6_bul.gif) no-repeat 0px 8px;font-weight:normal;}
+
+/***** gallery list *****/
+.photo_ul{width:100%; margin-top:35px; border-top:1px solid #e0e0e0;}
+.photo_ul li{padding:15px 0;border-bottom:1px solid #e0e0e0;}
+.photo_ul li:after{content:""; display:block; clear:both;}
+.photo_ul li .sum_photo{width:158px; height:155px;float:left; margin-right:10px; border:1px solid #e0e0e0;}
+.photo_ul li .sum_photo img{width:158px; height:155px;}
+.photo_ul li .sum_photo_free{width:auto; height:auto; padding:5px; float:right; margin-left:20px; margin-top:5px; border:1px solid #e0e0e0;}
+.photo_ul li .sum_photo_free img{width:100%; height:auto;}
+.photo_ul li .infor{float:right; width:750px;}
+.photo_ul li .ft_none{float:none; width:auto;}
+.photo_ul li h4{margin:0 0 10px 0;}
+.photo_ul li ul{margin:0;}
+.photo_ul li ul li{padding:0 0 0 10px; border-bottom:0;}
+.photo_ul li ul li:first-child{padding:0 0 0 10px;}
+	
+.h7_ul{margin:5px 0 15px 0; padding:0;}
+.h7_ul li{color:#444; background:url(/html/images/common/h7_bul.gif) no-repeat 3px 8px; margin:0 0 5px 0; padding:0 0 0 13px; border:0px !important;font-weight:normal; font-size:13px; line-height:20px;}

@@ -1,0 +1,41 @@
+.statusT{
+	width : 80%;
+	margin : auto;	
+}
+
+.searchT{
+	width : 80%;
+	margin : auto;
+}
+
+.l{
+	margin-right : 1px;
+}
+
+
+
+.textF{  border:1px solid blue; width : 25px; }
+.addT{
+	width : 300px;
+	margin : auto;
+}
+
+.addT td{
+
+	text-align : center;
+}
+
+.button {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width : 90px;
+    border-radius: 12px;
+}

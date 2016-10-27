@@ -1,0 +1,233 @@
+#
+#-----------------------------공통사항---------------------------------------
+#
+# 메인화면
+/index.do=com.tayo.www.Index
+#게시판 검색
+/common/BoardSearch.do=com.tayo.www.board.common.BoardSearch
+#게시판 글 삭제
+/common/BoardDelete.do=com.tayo.www.board.common.BoardDelete
+#게시판 글 보기
+/common/BoardView.do=com.tayo.www.board.common.BoardView
+#
+#
+#
+#
+#######################################################
+#------------------------- 관리자 자전거 현황 --------#
+#######################################################
+#관리자 자전거 현황
+#자전거 목록
+/admin/main.do=com.tayo.www.admin.bicycle.AdminBicycleStateList
+#자전거 상태 변경
+/admin/AdminBicycleStateProc.do=com.tayo.www.admin.bicycle.AdminBicycleStateProc
+#자전거 추가시 구 , 동, 지점 선택
+/admin/AdminBicycleLocation.do=com.tayo.www.admin.bicycle.AdminBicycleLocation
+/admin/AdminBicycleLocation2.do=com.tayo.www.admin.bicycle.AdminBicycleLocation2
+#자전거 추가
+/admin/AdminBicycleAddProc.do=com.tayo.www.admin.bicycle.AdminBicycleAddProc
+/admin/AdminBicycleAdd.do=com.tayo.www.admin.bicycle.AdminBicycleAdd
+#자전거 검색
+/admin/AdminBicycleSearch.do=com.tayo.www.admin.bicycle.AdminBicycleSearch
+#자전거 삭제
+/admin/AdminBicycleDeleteProc.do=com.tayo.www.admin.bicycle.AdminBicycleDeleteProc
+#지점별 자전거 조회
+/admin/AdminBicycleJijeom.do=com.tayo.www.admin.bicycle.AdminBicycleJijeom
+
+
+#------------------------- 관리자 자유게시판 ----------------------------------------
+
+#######################################################
+#------------------------- 관리자 자유게시판 ---------#
+#######################################################
+
+
+#------------------------- 관리자 Q&A 게시판 -----------------------------------------
+#관리자 Q&A게시판 목록
+/admin/AdminQnABoardList.do=com.tayo.www.admin.QnAboard.AdminQnABoardList
+#관리자 Q&A게시판 글 보기
+/admin/AdminQnABoardView.do=com.tayo.www.admin.QnAboard.AdminQnABoardView
+#관리자 Q&A게시판 글 쓰기
+/admin/AdminQnABoardWriter.do=com.tayo.www.admin.QnAboard.AdminQnABoardWriter
+#관리자 Q&A게시판 글 쓰기 요청
+/admin/AdminQnABoardWriterProc.do=com.tayo.www.admin.QnAboard.AdminQnABoardWriterProc
+#관리자 Q&A게시판 글 삭제
+/admin/AdminQnABoardDelete.do=com.tayo.www.admin.QnAboard.AdminQnABoardDelete
+#관리자 Q&A 자주하는 질문
+/admin/AdminQnABoardList2.do=com.tayo.www.admin.QnAboard.AdminQnABoardList2
+#관리자 Q&A 자주하는 질문 등록
+/admin/AdminQnABoardList2Write.do=com.tayo.www.admin.QnAboard.AdminQnABoardList2Write
+#관리자 Q&A 자주하는 질문 등록 요청
+/admin/AdminQnABoardList2WriteProc.do=com.tayo.www.admin.QnAboard.AdminQnABoardList2WriteProc
+#관리자 Q&A 자주하는질문 삭제
+/admin/AdminQnABoardList2delete.do=com.tayo.www.admin.QnAboard.AdminQnABoardList2delete
+#
+#--------------------------- 관리자 신고 게시판 -----------------------------------
+#
+#관리자 Q&A 신고 게시판 목록
+/admin/AdminReportBoardList.do=com.tayo.www.admin.reportboard.AdminReportBoardList
+#
+#--------------------------- 관리자 유저관리 --------------------------------------
+#관리자 유저관리 리스트
+/admin/AdminUserStatusList.do=com.tayo.www.admin.userlist.AdminUserStatusList
+#관리자 유저상태 관리
+/admin/AdminUserStatusProc.do=com.tayo.www.admin.userlist.AdminUserStatusProc
+#관리자 유저 검색
+/admin/AdminUserSearch.do=com.tayo.www.admin.userlist.AdminUserSearch
+#
+#--------------------------- 관리자 웹 통계  ----------------------------------------
+#관리자 통계모드
+#/admin/AdminStatsBoard.do=
+#
+#--------------------------- 관리자 환경설정 --------------------------------------
+#관리자 환경설정
+/admin/AdminSetBoard.do=com.tayo.www.admin.setboard.AdminSetBoard
+#관리자 환경설정 요청
+/admin/AdminSetBoardProc.do=com.tayo.www.admin.setboard.AdminSetBoardProc
+#
+#
+#------------------------- 메인 Q&N게시판 ----------------------------------------
+#Q&A게시판 목록
+/qna/QnABoardList.do=com.tayo.www.board.QnA.QnABoardList
+#Q&A 상세보기(Q&A에 올라온 글을 클릭시)
+/qna/QnABoardView.do=com.tayo.www.board.QnA.QnABoardView
+#Q&A게시판 글쓰기 폼
+/qna/QnABoardWriteForm.do=com.tayo.www.board.QnA.QnABoardWriteForm
+#Q&A게시판 글쓰기 요청
+/qna/QnABoardWriteProc.do=com.tayo.www.board.QnA.QnABoardWriteProc
+#Q&A게시판 글 수정
+/qna/QnABoardModifyForm.do=com.tayo.www.board.QnA.QnABoardModifyForm
+#Q&A게시판 글 수정 요청
+/qna/QnABoardModifyProc.do=com.tayo.www.board.QnA.QnABoardModifyProc
+#Q&A게시판 글 삭제
+/qna/QnABoardDelete.do=com.tayo.www.board.QnA.QnABoardDelete
+#Q&A게시판 조회수
+/qna/QnABoardHit.do=com.tayo.www.board.QnA.QnABoardHit
+#Q&A게시판 좋아요 나빠요
+/qna/QnABoardGoodBad.do=com.tayo.www.board.QnA.QnABoardGoodBad
+#Q&A게시판 답변
+/qna/QnABoardAnswer.do=com.tayo.www.board.QnA.QnABoardAnswer
+#Q&A게시판 답변 요청
+/qna/QnABoardAnswerProc.do=com.tayo.www.board.QnA.QnABoardAnswerProc
+#Q&A게시판 답변 삭제
+/qna/QnABoardAnswerDelete.do=com.tayo.www.board.QnA.QnABoardAnswerDelete
+#
+#################################################
+#-------------------------- 사용자 자유게시판 ###
+#################################################
+#자유게시판 목록
+/free/FreeBoardList.do=com.tayo.www.board.free.FreeBoardList
+#자유게시판 상세보기
+/free/FreeBoardView.do=com.tayo.www.board.free.FreeBoardView
+#자유게시판 글쓰기 폼
+/free/FreeBoardWriteForm.do=com.tayo.www.board.free.FreeBoardWriteForm
+#자유게시판 글쓰기 요청
+/free/FreeBoardWriteProc.do=com.tayo.www.board.free.FreeBoardWriteProc
+#자유게시판 글 수정 폼
+/free/FreeBoardModify.do=com.tayo.www.board.free.FreeBoardModify
+#자유게시판 글 수정 요청
+/free/FreeBoardModifyProc.do=com.tayo.www.board.free.FreeBoardModifyProc
+#자유게시판 글 삭제
+/free/FreeBoardDelete.do=com.tayo.www.board.free.FreeBoardDelete
+#자유게시판 조회수
+/free/FreeBoardHit.do=com.tayo.www.board.free.FreeBoardHit
+#자유게시판 좋아요
+/free/FreeBoardGood.do=com.tayo.www.board.free.FreeBoardGood
+#자유게시판 구려요
+/free/FreeBoardBad.do=com.tayo.www.board.free.FreeBoardBad
+#자유게시판 검색 요청
+/free/FreeBoardSearch.do=com.tayo.www.board.free.FreeBoardSearch
+#자유게시판 댓글 작성
+/free/FreeBoardRepleWrite.do=com.tayo.www.board.free.FreeBoardRepleWrite
+#자유게시판 댓글 수정
+/free/FreeBoardRepleModify.do=com.tayo.www.board.free.FreeBoardRepleModify
+#자유게시판 댓글 삭제
+/free/FreeBoardRepleDelete.do=com.tayo.www.board.free.FreeBoardRepleDelete
+#
+#
+#------------------------- 예약 ------------------------------------------
+# 예약페이지 요청
+/reserve/ReservePage.do=com.tayo.www.reserve.ReservePage
+# 예약 동 Ajax 요청
+/reserve/ReserveDong.do=com.tayo.www.reserve.ReserveDong
+# 예약 지점 Ajax 요청
+/reserve/ReserveJijeom.do=com.tayo.www.reserve.ReserveJijeom
+# 예약 로케이션 Ajax 요청
+/reserve/ReserveLocation.do=com.tayo.www.reserve.ReserveLocation
+# 예약 blur 비밀번호 확인 요청
+/reserve/PWConfirm.do=com.tayo.www.reserve.PWConfirm
+# 예약 요청
+/reserve/ReserveProc.do=com.tayo.www.reserve.ReserveProc
+#
+# 예약 비밀번호 확인요청
+/reserve/ReserveConfirm.do=com.tayo.www.reserve.ReserveConfirm
+#
+#-------------------------- 로그인 ----------------------------------------
+# 부가정보입력페이지 요청
+/login/AddInfoForm.do=com.tayo.www.login.AddInfoForm
+# 부가정보입력 요청
+/login/AddInfoProc.do=com.tayo.www.login.AddInfoProc
+#		메인 > 로그인 Proc
+/login/loginProc.do=com.tayo.www.service.loginProc
+#		메인 > 로그아웃 Proc
+/login/logout.do=com.tayo.www.service.Logout
+#
+#
+#
+#
+#################################
+#########타요 안내#################
+#################################
+#		header > 타요안내
+/service/info.do=com.tayo.www.service.info
+#		header > 이용안내
+/service/use.do=com.tayo.www.service.use
+#		header > 이용안내
+/service/use2.do=com.tayo.www.service.use2
+#		header > 정거장조회
+/service/station.do=com.tayo.www.service.station
+#
+#
+#
+#
+#
+#
+#
+#--------------------------- 마이페이지 ------------------------------------
+# 마이페이지(사용이력조회) 요청
+/mypage/RentRecord.do=com.tayo.www.mypage.RentRecord
+# 개인정보수정 페이지 요청
+/mypage/ChangeInfo.do=com.tayo.www.mypage.ChangeInfo
+# 개인정보수정 요청
+/mypage/ChangeInfoProc.do=com.tayo.www.mypage.ChangeInfoProc
+# 대여비밀번호 변경 페이지 요청
+/mypage/ChangePW.do=com.tayo.www.mypage.ChangePW
+# 대여비밀번호 변경 요청
+/mypage/ChangePWProc.do=com.tayo.www.mypage.ChangePWProc
+#
+#
+#
+#
+#
+#
+#---------------------------- 신고게시판 ------------------------------------
+# 신고페이지 목록 요청
+/report/ReportBoardList.do=com.tayo.www.board.report.ReportBoardList
+# 신고페이지 상세보기 요청
+/report/ReportBoardView.do=com.tayo.www.board.report.ReportBoardView
+# 신고페이지 글쓰기 페이지 요청
+/report/ReportBoardWriteForm.do=com.tayo.www.board.report.ReportBoardWriteForm
+# 신고페이지 글쓰기 요청
+/report/ReportBoardWriteProc.do=com.tayo.www.board.report.ReportBoardWriteProc
+# 신고페이지 글수정 페이지 요청
+/report/ReportBoardModifyForm.do=com.tayo.www.board.report.ReportBoardModifyForm
+# 신고페이지 글수정 요청
+/report/ReportBoardModifyProc.do=com.tayo.www.board.report.ReportBoardModifyProc
+# 신고페이지 글삭제 요청
+/report/ReportBoardDelete.do=com.tayo.www.board.report.ReportBoardDelete
+# 신고페이지 댓글쓰기 요청
+/report/ReportReplyProc.do=com.tayo.www.board.report.ReportReplyProc
+# 신고페이지 댓글수정 요청
+/report/ReportReplyModify.do=com.tayo.www.board.report.ReportReplyModify
+# 신고페이지 댓글삭제 요청
+/report/ReportReplyDelete.do=com.tayo.www.board.report.ReportReplyDelete

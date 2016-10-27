@@ -1,0 +1,69 @@
+BODY .TABLESTYLE1 {border: 1px solid #00e6ac; width : 800px; border-collapse: collapse; margin : auto;}
+BODY .TABLESTYLE1 THEAD{border : 2px ridge #00e6ac; background-color: #00e6ac;}
+BODY .TABLESTYLE1 TH{border : 2px ridge #00e6ac; background-color: #ccfff2;}
+BODY .TABLESTYLE1 TR{border : 2px ridge #00e6ac;}
+BODY .TABLESTYLE1 TD{border : 2px ridge #00e6ac;}
+
+BODY .TABLESTYLE2 {border: 1px solid #ff4da6; width : 800px; border-collapse: collapse; margin : auto;}
+BODY .TABLESTYLE2 THEAD{border : 2px ridge #00e6ac; background-color: #ff4da6;}
+BODY .TABLESTYLE2 TH{border : 2px ridge #ff4da6; background-color: #ffe6f2;}
+BODY .TABLESTYLE2 TR{border : 2px ridge #ff4da6;}
+BODY .TABLESTYLE2 TD{border : 2px ridge #ff4da6;}
+
+BODY .TABLESTYLE3 {border: 1px solid #0099ff; width : 800px; border-collapse: collapse; margin : auto;}
+BODY .TABLESTYLE3 THEAD{border : 2px ridge #0099ff; background-color: #0099ff;}
+BODY .TABLESTYLE3 TH{border : 2px ridge #0099ff; background-color: #e6f5ff;}
+BODY .TABLESTYLE3 TR{border : 2px ridge #0099ff;}
+BODY .TABLESTYLE3 TD{border : 2px ridge #0099ff;}
+
+BODY .OUTLINE1 {outline: 15px solid #80ffdf; border-radius: 6px;}
+BODY .OUTLINE2 {outline: 15px solid #ff99cc; border-radius: 6px;}
+BODY .OUTLINE3 {outline: 15px solid #80ccff; border-radius: 6px;}
+
+BODY .FONT1 {font-family: "gulim";}
+
+BODY .BUTTON1 {color: black; background-color: white; border: 1px solid #00cc99; border-radius: 2px;}
+BODY .BUTTON1:hover {color: white; background-color: #00cc99;}
+
+BODY .BUTTON2 {color: black; background-color: white; border: 1px solid #f44336; border-radius: 2px;}
+BODY .BUTTON2:hover {color: white; background-color: #f44336;}
+
+BODY .BUTTON3 {color: black; background-color: white; border: 1px solid #008CBA; border-radius: 2px;}
+BODY .BUTTON3:hover {color: white; background-color: #008CBA;}
+
+BODY .A:link {color: green;}
+BODY .A:visited {color: green;}
+BODY .A:hover {color: red; background-color: #ffffcc; }
+BODY .A:active {color: blue;}
+
+BODY .W50P {width: 50px;}
+BODY .W100P {width: 100px;}
+BODY .W150P {width: 150px;}
+BODY .W200P {width: 200px;}
+BODY .W250P {width: 250px;}
+BODY .W300P {width: 300px;}
+BODY .W350P {width: 350px;}
+BODY .W400P {width: 400px;}
+BODY .W450P {width: 450px;}
+BODY .W500P {width: 500px;}
+BODY .W550P {width: 550px;}
+BODY .W600P {width: 600px;}
+BODY .W650P {width: 650px;}
+BODY .W700P {width: 700px;}
+BODY .W750P {width: 750px;}
+BODY .W800P {width: 800px;}
+BODY .W850P {width: 850px;}
+BODY .W900P {width: 900px;}
+BODY .W950P {width: 950px;}
+BODY .W1000P {width: 1000px;}
+
+BODY .H10P {height: 10px;}
+BODY .H15P {height: 15px;}
+BODY .H20P {height: 20px;}
+BODY .H25P {height: 25px;}
+BODY .H30P {height: 30px;}
+
+BODY .F12S {font-size: 0.75em;}
+BODY .F14S {font-size: 0.875em;}
+
+BODY .DIVCENTER {margin: auto; border: 0px; width: 100%; padding: 20px;}

@@ -1,0 +1,127 @@
+<재용이가 정한 개발공통사항1>
+1. header에 대한 정의
+필요한 js파일과 css 파일
+페이지 전체에 설정해야 되는 사항들은 /inc/header.jsp에 정의한다.
+
+일부(한 페이지)에서만 사용할 것 같은 것은 해당 페이지에서만 사용하고
+header에 포함하지 않는다.
+
+
+<재용이가 정한 개발공통사항2>
+2. header와 bottom 추가
+뷰 페이지에서는 기본적으로 아래 사항을 추가한다.
+	2-1)
+		<%@ include file= "/inc/header.jsp" %>
+
+	2-2)
+		개발해야 되는 부분
+
+	2-3)
+		<%@ include file="/inc/bottom.jsp" %>
+
+
+
+<재용이가 정한 개발공통사항2>
+3.  datepicker 사용방법
+	3.1
+		3.1.1
+		<script type="text/javascript">
+  			$(document).ready(function() {
+  				$(".datepicker").datepicker();
+  			});
+  		</script>
+
+
+		<p>Date: <input id="datepicker"/></p>
+
+
+		3.1.2
+		<input class="COMMON_CALENDAR"/>
+
+
+<재용이가 정한 개발공통사항3>
+4. 스마트에디터 사용
+	4.1 스마트에디터 변수로 ir1으로 정의한다.
+		아래의 형태로 스마트에디터를 호출한다.
+
+		<textarea name="ir1" id="ir1" display:none;"></textarea>
+
+ 	4.2 스마트에디터의 값은 textarea의 내용과 값이 다르므로
+ 		javascript에서 아래와 같은 코드를 넣어줌으로써 내용이 에디터에 삽입된다,.
+
+		oEditors.getById["ir1"].exec("UPDATE_CONTENTS_FIELD", []);
+
+	4.3 스마트에디터 호출은 ir1 이지만 컨트롤러에서 값을 받을때는
+		body로 약속한다.
+
+		String body = request.getParameter("ir1");
+
+
+	4.4 스마트에디터에 사진기능을 첨부하였으므로 모든 게시판에 사진첨부기능이 존재한다.
+
+
+5. CSS 파일 정의
+	5.1	파일 맨 위에 CSS 추가하는 경우 추가한 사람의 이름을 정의한다.
+	5.2	 5.1 파일에서도 추가한 CSS 그 해당 CSS에 따로 이름을 표기한다.
+
+
+
+6. (회의)
+	6.1 기술적인 구현부분은 서로 코딩에 방해되지 않도록
+	양해를 구하고 구글링을 충분히 한 후 or 선생님의 도움을 받도록 하자.
+
+	6.2 하루하루 PM에게 뭐뭐 했는지를 보고하고 PM은 개발부분에서 현재 부족한 부분을 파악하여
+	보고한 사람에게 피드백과 기술적인 부분에 대하여 도움을 받자.
+
+	해당 페이지의 세세한 부분이 놓쳤는지 구현한 부분을 테스트하고,
+	PM은 빠진 부분을 파악하여 오후 5시쯤 회의를 가져서 추가할 수 있도록 하자.
+
+
+
+7. 데이터베이스 ip : 192.168.0.7 DBCP세팅
+
+8. host 변경하기 - tayotayo.com
+
+9. SVN 계정 세팅 -
+		  계정명  / 
+이규영 - iedulky
+이재용 - 
+이종헌 - ieduljh
+배영민 - iedubym
+안치현 - ieduach
+
+10. 네이버로그인 테스트 아이디: java3333 / roqkf3333
+
+세션값 :
+
+컨트롤러 > 
+
+
+
+아이디 ${sessionScope.ID}
+닉네임 ${sessionScope.NICK}
+성별 ${sessionScope.GENDER}
+생년월일 ${sessionScope.BIRTHDAY}
+프로필 ${sessionScope.PROFILE}
+
+
+
+11. 파라메터
+	게시판 페이지 파라메터 : page
+	
+
+
+12. SQL 
+public static final int 번호
+
+ * 회원 관련	: 0000
+ * 자유게시판	: 1000
+ * 		관리자 자유게시판 : 1900
+ * QNA			: 2000
+ * 		관리자 QNA		  : 2900
+ * 신고게시판	: 3000
+ * 		관리자 신고게시판 : 3900
+ * 관리자		: 9000
+
+
+
